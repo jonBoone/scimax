@@ -1,4 +1,4 @@
-;; This is a placeholder test to check if it works.
+;; This is a placeholder test to check if it works.  -*- lexical-binding: t; -*-
 (ert-deftest test-1 ()
   (should (equal t t)))
 
