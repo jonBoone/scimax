@@ -50,6 +50,14 @@
 
 (use-package avy)
 
+;;;  add support for book-mode to improve reading org-mode files
+(use-package svg-tag-mode
+  :straight t)
+
+(use-package book-mode 
+  :straight '(book-mode :type git :host github :repo "rougier/book-mode"))
+
+
 ;; May 24, 2017: this seems to be causing emacs 25.2 to be crashing on my linux box.
 (unless (eq system-type 'gnu/linux)
   (use-package tex
