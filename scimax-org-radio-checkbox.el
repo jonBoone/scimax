@@ -1,4 +1,4 @@
-;;; scimax-org-radio-checkbox.el --- Org radio checkboxes
+;;; scimax-org-radio-checkbox.el --- Org radio checkboxes  -*- lexical-binding: t; -*-
 ;; * radio checkboxes
 
 ;;; Commentary:
