@@ -29,6 +29,6 @@ nouser:
 #	${CASK_EXEC} ${emacs} -l ${INIT}
 
 github:
-	open https://github.com/jkitchin/scimax
+	open https://github.com/jonBoone/scimax
 
 .PHONY:	all test package clean-elc test-melpa
