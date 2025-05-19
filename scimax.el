@@ -3,7 +3,7 @@
 ;;; Commentary:
 ;;
 ;; * Basic settings
-(defcustom scimax-theme 'leuven
+(defcustom scimax-theme 'nano-dark
   "Theme to use for scimax. Defaults to `leuven'.
 Set to nil to avoid loading a theme."
   :group 'scimax
