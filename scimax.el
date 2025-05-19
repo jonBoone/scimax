@@ -14,9 +14,9 @@ Set to nil to avoid loading a theme."
   (load-theme scimax-theme))
 
 
-;; Source code pro for the font if it is available
+;; MesloLGL Nerd Font Mono for the font if it is available
 
-(let ((f "Source Code Pro"))
+(let ((f "MesloLGL Nerd Font Mono"))
   (when (member f (font-family-list))
     (set-face-attribute 'default nil :font f)))
 
